@@ -33,11 +33,17 @@ $(function () {
     // TODO 2 - Create Platforms
     //most he can jump is 139 pixles
      createPlatform(500, 0, 20, 300);
-     createPlatform(1350, 400, 50, 50, "red");
      createPlatform(0, 300, 400, 20);
      createPlatform(350, 439, 100, 60);
-     createPlatform(450, 170, 10, 20, "rgba(0, 255, 47, 0)")
-     
+     createPlatform(450, 170, 10, 20, "lightBlue");
+     createPlatform(50, 420, 150, 20, "lightBlue");
+     createPlatform(150, 420, 150, 20);
+     createPlatform(500, 400, 100, 20)
+     createPlatform(600, 350, 50, 50)
+     createPlatform(500, 250, 50, 20)
+     createPlatform(650, 0, 20, 400)
+
+
 
 
 
@@ -46,15 +52,16 @@ $(function () {
 
 
     // TODO 3 - Create Collectables
-    createCollectable("database", 450, 30, 0, 0.7)
-    createCollectable("database", 200, 170, 0, 0.7)
-
+     createCollectable("database", 600, 120, 0, 20)
+     createCollectable("database", 450, 30, 0, 0.7)
+     createCollectable("database", 20, 350, 0, 0.7)
+     
 
     
     // TODO 4 - Create Cannons
-
-
-    
+     createCannon("right", 200, 1500)
+     createCannon("right", 450, 1500)
+     createCannon("bottom", 0, 1500)
     
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
