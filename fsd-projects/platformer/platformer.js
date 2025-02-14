@@ -27,16 +27,27 @@ $(function () {
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-    // toggleGrid();
+     toggleGrid();
 
 
     // TODO 2 - Create Platforms
+    //most he can jump is 139 pixles
+     createPlatform(500, 0, 20, 300);
+     createPlatform(1350, 400, 50, 50, "red");
+     createPlatform(0, 300, 400, 20);
+     createPlatform(350, 439, 100, 60);
+     createPlatform(450, 170, 10, 20, "rgba(0, 255, 47, 0)")
+     
+
+
+
 
 
 
 
     // TODO 3 - Create Collectables
-
+    createCollectable("database", 450, 30, 0, 0.7)
+    createCollectable("database", 200, 170, 0, 0.7)
 
 
     
